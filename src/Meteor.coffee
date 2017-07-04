@@ -157,7 +157,7 @@ class Meteor extends EventEmitter
           globedPackages.forEach (pkg)->
             matchedPackages.push(pkg)
         else
-          log.warn "spacjam: Warning: No packages matching #{pkgArg} have been found. Will add it to the meteor command line anyway, in case it's in PACKAGE_DIRS."
+          log.warn "spacejam: Warning: No packages matching #{pkgArg} have been found. Will add it to the meteor command line anyway, in case it's in PACKAGE_DIRS."
           # TODO: Support globs in PACKAGE_DIRS too.
           matchedPackages.push(pkgArg)
 

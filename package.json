@@ -1,11 +1,12 @@
 {
   "name": "spacejam",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "dependencies": {
     "chai": "1.9.2",
+    "es6-promise": "^4.1.1",
     "glob": "4.0.6",
     "loglevel": "1.1.0",
-    "phantomjs": "2.1.7",
+    "phantomjs-prebuilt": "https://github.com/phawxby/phantomjs/tarball/master",
     "psext": "0.0.4",
     "rc": "0.5.1",
     "semver": "4.1.0",

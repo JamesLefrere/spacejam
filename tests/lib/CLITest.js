@@ -8,7 +8,7 @@
 
   path = require('path');
 
-  phantomjs = require("phantomjs");
+  phantomjs = require("phantomjs-prebuilt");
 
   chai = require("chai");
 
